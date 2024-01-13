@@ -8,6 +8,13 @@
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 16px; /* Aggiungi uno spazio tra gli elementi, se desiderato */
+}
+
 .top-bar{
     display: flex;
     justify-content: center;
@@ -88,5 +95,7 @@
 
 .icon{
     margin-top: 0.625rem;
+    width: 35px;
+    height: 35px;
 }
 
