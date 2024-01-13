@@ -45,11 +45,11 @@ const WeatherApp = () => {
 
 
         humidity[0].innerHTML = data.main.humidity+"%";
-        wind[0].innerHTML = Math.floor(data.wind.speed)+"km/h";
+        wind[0].innerHTML = Math.floor(data.wind.speed)+" km/h";
         temperature[0].innerHTML = Math.floor(data.main.temp)+"°C";
         location[0].innerHTML = data.name;
         sunrise[0].innerHTML = convertUnixTimeToHHMM(data.sys.sunrise)+" / "+convertUnixTimeToHHMM(data.sys.sunset);
-        pressure[0].innerHTML = data.main.pressure+"mBar";
+        pressure[0].innerHTML = data.main.pressure+" mBar";
 
         if(data.weather[0].icon==="01d" || data.weather[0].icon==="01n")
         {
