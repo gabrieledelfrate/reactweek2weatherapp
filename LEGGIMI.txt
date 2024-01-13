@@ -1,0 +1,11 @@
+Progetto WhatWeather 
+
+Ho realizzato 3 componenti principali:
+1. Header.jsx, contiene il nome dell'app.
+2. SearchBar.jsx, contiene la searchbar, posizionata sticky bottom per semplificarne l'uso su mobile.
+3. WeatherApp.jsx, componente principale contenente logica e fetch. Ho inserito una serie di else if per modificare l'immagine centrale in base alle previsioni. Ho inserito la funzione di conversione unix.
+
+Quella che ho consegnato entro le 13 è la seconda app che ho realizzato, la prima era concettualmente simile ma strutturalmente molto diversa. Questo è il link alla lavagna Miro : https://miro.com/app/board/uXjVN6z81dM=/ . Ho avuto vari problemi con le fetch, non riuscivo a passare correttamente i dati recuperati da geocoding ai vari components. Ragione per cui la sera del 12/01 ho deciso di creare una nuova app e impostare un progetto più semplice.
+
+Implementerò le previsioni nelle prossime ore, anche se so che chiaramente non verranno valutate. 
+Mi dispiace di aver consegnato un progetto incompleto. Funziona almeno.
